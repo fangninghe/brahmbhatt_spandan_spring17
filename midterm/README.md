@@ -1,3 +1,4 @@
-# brahmbhatt_spandan_spring17
-### Feedback:
-- Excellent Work! Full Mark
+# Illustration of midterm project
+### Question 1 Enron Email:
+### Question 2 NYT API:
+
