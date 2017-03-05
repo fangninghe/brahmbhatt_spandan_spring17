@@ -17,6 +17,10 @@
   
   !['distribution of materialtype'](/midterm/que[1-2]/ana[1-3]/material_type.png)
   
+  
+  * I also generate a csv file of distribution of material type, please refer to **material_type_distribution.csv** at **midterm/que[1-2]/ana[1-3]/**.
+  
+  
   * **Analysis two** is to generate a csv file to give a general idea of every artial's rank status at different journals. Please review the **archive_rank_status.csv** at **midterm/que[1-2]/ana[1-3]/**.
 - One analysis is performed on Community API
   * Community API is getting access to comments from registered users on New York Times articals.
@@ -26,7 +30,7 @@
   
    !['Zipf's Law'](/midterm/que[1-2]/ana[1-3]/Zipf`s_Law.png)
    
-### **According to the plot, we can conclude that 20% of the users contributed 80% of the comments**
+### **According to the plot, we can conclude that 20% of the users contributed 80% of the comments** Please refer to user_content_zipf's.csv file at **midterm/que[1-2]/ana[1-3]/**.
   
   
 
