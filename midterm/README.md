@@ -1,5 +1,27 @@
 # Illustration of midterm project
 ## Question 1 Enron Email:
+### 1. Find who has the most Emails
+- First step in detecting Enron Scandel is to search who has the most Emails. Since it is reasonalbe to conclude that people who had the bigger volumn of Emails might inovle more in this event. 
+- Email amount of the each person was calculated and generated a csv file in **midterm/que[1-2]/ana[1-3]/** named **mail_list.csv**.
+
+### 2. Dig into the most active people
+- According to the result in first step, the five most active people and their Email amount is as below:
+
+| Name        | Email Amount  | 
+| ------------|:-------------:| 
+| kaminski-v      |28465 | 
+| dasovich-j      |28234 |   
+| kean-s          |25351 |  
+| mann-k          |23381 |   
+| jones-t         |19950 |  
+
+- Then analysis was performed on the most active years, the result is as below:
+
+ !['Top five Email By Year'](/midterm/que[1-2]/ana[1-3]/Email_Volumn.png)
+ 
+ According to the line chart below, it shows that the most active years are 2000 and 2001. So next step will do rearch on the Email content in those two years.
+
+## 3. Detect Email content in most active years
 ---
 ## Question 2 NYT API:
 ### 1. Collect data and store data
