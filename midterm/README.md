@@ -21,7 +21,22 @@
  
  According to the line chart below, it shows that the most active years are 2000 and 2001. So next step will do rearch on the Email content in those two years.
 
-## 3. Detect Email content in most active years
+## 3. Detect Email Content of the top five people
+- Get the each person`s Email content of year 2000 and year 2001.
+- Remove stop words, punctuation words and useless words like "subject", "to" and "forwarded".
+- Generate the wordcloud graphs for each person. The graphs are as below:
+  * kaminski's wordcloud graph
+  !['kaminski's wordcloud graph'](/midterm/que[1-2]/ana[1-3]/kaminski_words.png)
+  * dasovich's wordcloud graph
+  !['dasovich's wordcloud graph'](/midterm/que[1-2]/ana[1-3]/dasovich_words.png)
+  * kean's wordcloud graph
+  !['kean's wordcloud graph'](/midterm/que[1-2]/ana[1-3]/kean_words.png)
+  * mann's wordcloud graph
+  !['mann's wordcloud graph'](/midterm/que[1-2]/ana[1-3]/mann_words.png)
+  * jones's wordcloud graph
+  !['jones's wordcloud graph'](/midterm/que[1-2]/ana[1-3]/jones_words.png)
+- Generate csv files for each person's top 500 hot words in Email content. Please refer to **midterm/que[1-2]/ana[1-3]/** and review **kaminski-v_word.csv**, **dasovich-j_word.csv**, **kean-s_word.csv**, **mann-k_word.csv** and **jones-t_word.csv**.
+
 ---
 ## Question 2 NYT API:
 ### 1. Collect data and store data
@@ -53,7 +68,6 @@
    !['Zipf's Law'](/midterm/que[1-2]/ana[1-3]/Zipf`s_Law.png)
    
 ### **According to the plot, we can conclude that 20% of the users contributed 80% of the comments** Please refer to user_content_zipf's.csv file at **midterm/que[1-2]/ana[1-3]/**.
-  
-  
+
 
 
