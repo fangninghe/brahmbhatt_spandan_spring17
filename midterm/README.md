@@ -1,7 +1,7 @@
 # Illustration of midterm project
 ## Question 1 Enron Email:
 ### 1. Find who has the most Emails
-- First step in detecting Enron Scandel is to search who has the most Emails. Since it is reasonalbe to conclude that people who had the bigger volumn of Emails might inovle more in this event. 
+- First step in detecting Enron Scandel is to search who has the most Emails. Since it is reasonalbe to conclude that people who had the bigger volumn of Emails might involve more in this event. 
 - Email amount of the each person was calculated and generated a csv file in **midterm/que[1-2]/ana[1-3]/** named **mail_list.csv**.
 
 ### 2. Dig into the most active people
@@ -55,7 +55,7 @@
   !['distribution of materialtype'](/midterm/que[1-2]/ana[1-3]/material_type.png)
   
   
-  * I also generate a csv file of distribution of material type, please refer to **material_type_distribution.csv** at **midterm/que[1-2]/ana[1-3]/**.
+  * I also generated a csv file of distribution of material type, please refer to **material_type_distribution.csv** at **midterm/que[1-2]/ana[1-3]/**.
   
   
   * **Analysis two** is to generate a csv file to give a general idea of every artial's rank status at different journals. Please review the **archive_rank_status.csv** at **midterm/que[1-2]/ana[1-3]/**.
