@@ -19,4 +19,4 @@ df_compenstaion = df_compenstaion['Total Compensation'].groupby(level=0, group_k
 df_compenstaion = pd.DataFrame(df_compenstaion.nlargest(20))
 df_compenstaion.head()
 
-df_compenstaion.to_csv('C:\\Users\\Alex\\Desktop\\Q2_Part_1.csv')
+df_compenstaion.to_csv('Q2_Part_1.csv')
