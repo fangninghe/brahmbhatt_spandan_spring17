@@ -1,7 +1,7 @@
 import pandas as pd
 
 #read file
-file = pd.read_csv("../Data/vehicle_collisions.csv")
+file = pd.read_csv("Data/vehicle_collisions.csv")
 df = pd.DataFrame(file)
 df.head()
 
@@ -38,4 +38,4 @@ df_car_involve = df_car_involve[[1,2,3,'more']]
 df_car_involve
 
 
-df_car_involve.to_csv("Q1_Part_2.csv",header=["ONE_VEHICLE_INVOLVED","TWO_VEHICLES_INVOLVED","THREE_VEHICLES_INVOLVED","MORE_VEHICLES_INVOVLED"])
+df_car_involve.to_csv("output/Q1_Part_2.csv",header=["ONE_VEHICLE_INVOLVED","TWO_VEHICLES_INVOLVED","THREE_VEHICLES_INVOLVED","MORE_VEHICLES_INVOVLED"])

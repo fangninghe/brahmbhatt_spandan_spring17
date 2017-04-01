@@ -1,7 +1,7 @@
 import pandas as pd
 
 #read data
-file = pd.read_csv("../Data/vehicle_collisions.csv")
+file = pd.read_csv("Data/vehicle_collisions.csv")
 df = pd.DataFrame(file)
 df.head()
 
@@ -46,4 +46,4 @@ df_final
 df_final['MONTH'] = ['Jan', 'Fen', 'Mar', 'Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec']
 df_final
 
-df_final.to_csv("Q1_Part_1.csv",index=False)
+df_final.to_csv("output/Q1_Part_1.csv",index=False)

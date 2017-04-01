@@ -1,7 +1,7 @@
 import pandas as pd
 
 #read file
-file = pd.read_csv("../Data/employee_compensation.csv")
+file = pd.read_csv("Data/employee_compensation.csv")
 df = pd.DataFrame(file)
 df.head()
 
@@ -19,4 +19,4 @@ df_compenstaion = df_compenstaion['Total Compensation'].groupby(level=0, group_k
 df_compenstaion = pd.DataFrame(df_compenstaion.nlargest(20))
 df_compenstaion.head()
 
-df_compenstaion.to_csv('Q2_Part_1.csv')
+df_compenstaion.to_csv('output/Q2_Part_1.csv')
