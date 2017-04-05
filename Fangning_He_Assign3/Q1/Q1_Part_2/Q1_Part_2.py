@@ -33,9 +33,9 @@ df_car_involve
 
 
 #grap final result for csv file
-df_car_involve['more'] = df_car_involve[0] + df_car_involve[4] + df_car_involve[5]
-df_car_involve = df_car_involve[[1,2,3,'more']]
+df_car_involve['more'] = df_car_involve[4] + df_car_involve[5]
+df_car_involve = df_car_involve[[0,1,2,3,'more']]
 df_car_involve
 
 
-df_car_involve.to_csv("output/Q1_Part_2.csv",header=["ONE_VEHICLE_INVOLVED","TWO_VEHICLES_INVOLVED","THREE_VEHICLES_INVOLVED","MORE_VEHICLES_INVOVLED"])
+df_car_involve.to_csv("C:output/Q1_Part_2.csv",header=["NO_VEHICLE_INVOLVED","ONE_VEHICLE_INVOLVED","TWO_VEHICLES_INVOLVED","THREE_VEHICLES_INVOLVED","MORE_VEHICLES_INVOVLED"])
