@@ -15,7 +15,7 @@
 > * **lon**: longitude of the Worksite.
 > * **lat**: latitude of the Worksite.
 
-## Analysis： Find the top 10 states with the most HI-B visa opportunities by year
+## Analysis 1： Find the top 10 states with the most HI-B visa opportunities by year
 ### Data cleaning
 1. Delete old index column.
 2. Remove rows with nan values.
