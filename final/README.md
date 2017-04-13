@@ -15,4 +15,29 @@
 > * **lon**: longitude of the Worksite.
 > * **lat**: latitude of the Worksite.
 
-## Analysis 
+## Analysis： Find the top 10 states with the most HI-B visa opportunities by year
+### Data cleaning
+1. Delete old index column.
+2. Remove rows with nan values.
+3. Split **WORKSITE** into **CITY** and **STATE**.
+
+### Group data 
+1. Group by **YEAR** and **STATE**.
+2. Select the top ten states within each **STATE** group.
+3. Please refer to file _ana\_1.csv_ in folder **final/analysis/ana[1-5]/**.
+4. The bar charts of each year are as below:
+
+ !['data2011'](/final/analysis/ana_[1-5]/ana_1_2011.png)
+ 
+ !['data2012'](/final/analysis/ana_[1-5]/ana_1_2012.png)
+ 
+ !['data2013'](/final/analysis/ana_[1-5]/ana_1_2013.png)
+ 
+ !['data2014'](/final/analysis/ana_[1-5]/ana_1_2014.png)
+ 
+ !['data2015'](/final/analysis/ana_[1-5]/ana_1_2015.png)
+ 
+ !['data2016'](/final/analysis/ana_[1-5]/ana_1_2016.png)
+ 
+### Conclusion
+From the result by year, for now, the states with most H1-B opportunities are California, Texas, New York, New Jersey and Illinois.
