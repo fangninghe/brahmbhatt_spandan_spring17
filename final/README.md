@@ -5,6 +5,10 @@
 
 ### Documentation for dataset
 > * **CASE_STATUS**: Status associated with the last significant event or decision. Valid values include _“Certified,” “Certified-Withdrawn,” Denied,” and “Withdrawn”_.
+>    * Certified: Employer filed the LCA, which was approved by DOL
+>    * Certified Withdrawn: LCA was approved but later withdrawn by employer
+>    * Withdrawn: LCA was withdrawn by employer before approval
+>    * Denied: LCA was denied by DOL.
 > * **EMPLOYER_NAME**: Name of employer submitting labor condition application.
 > * **SOC_NAME**: Occupational name associated with the **SOC_CODE**. **SOC_CODE** is the occupational code associated with the job being requested for temporary labor condition, as classified by the Standard Occupational Classification (SOC) System.
 > * **JOB_TITLE**: Title of the job.
