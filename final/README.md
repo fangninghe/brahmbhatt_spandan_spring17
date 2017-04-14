@@ -44,4 +44,4 @@
  !['data2016'](/final/analysis/ana_[1-5]/ana_1_2016.png)
  
 ### Conclusion
-From the result by year, for now, the states with most H1-B opportunities are California, Texas, New York, New Jersey and Illinois.
+From the result by year, top 11 states are selected, which are CALIFORNIA, FLORIDA, GEORGIA, ILLINOIS, MASSACHUSETTS, NEW JERSEY, NEW YORK, PENNSYLVANIA, TEXAS ,VIRGINIA and WASHINGTON. Data from those 11 states are selected for the seconde analysis.
