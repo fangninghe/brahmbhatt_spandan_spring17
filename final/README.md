@@ -44,4 +44,17 @@
  !['data2016'](/final/analysis/ana_[1-5]/ana_1_2016.png)
  
 ### Conclusion
-From the result by year, top 11 states are selected, which are CALIFORNIA, FLORIDA, GEORGIA, ILLINOIS, MASSACHUSETTS, NEW JERSEY, NEW YORK, PENNSYLVANIA, TEXAS ,VIRGINIA and WASHINGTON. Data from those 11 states are selected for the seconde analysis.
+From the result by year, top 5 states are selected, which are **CALIFORNIA, ILLINOIS, NEW JERSEY, NEW YORK and TEXAS**. Data from those 5 states are selected for the seconde analysis.
+
+
+## Analysis 2： Find the top 20% cities and top 20% occupations with the most HI-B visa opportunities in total.
+1. Select data from top 5 states mentioned in last analysis.
+2. Analyze **CASE_STATUS**, as is shown below, **CERTIFIED** data is selected based on 2 reason. One reason is the **CERTIFIED** data makes the most sense for foreign candidates. The other reason is that according to the pie chart, more than 80% of the cases` result is **CERTIFIED**.
+ 
+  !['data_casgstatus'](/final/analysis/ana_[1-5]/ana_2.png)
+   
+3. Based on the same reason, filter the data with **FULL TIME** positions.
+4. according to Zipf's law that 20% always contributes 80%. Locate the dataframe into top 20% of cities and top 20% of the occupations(SOC_NAME).
+5. Please refer to file _ana\_2.csv_ in folder **final/analysis/ana[1-5]/**.
+
+
