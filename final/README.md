@@ -58,3 +58,11 @@ From the result by year, top 5 states are selected, which are **CALIFORNIA, ILLI
 5. Please refer to file _ana\_2.csv_ in folder **final/analysis/ana[1-5]/**.
 
 
+## Analysis 3： Find out the average of top five state by year
+1. Convert **PREVILILNG_WAGE** to float format.
+2. Group data by **YEAR** and **STATE**. The following line chart demonstrates the trend from 2011 to 2016.
+
+ !['data_wage'](/final/analysis/ana_[1-5]/ana_3.png)
+ 
+### Conclusion
+For the 5 years, the **average wage** for H1-B visa is increasing in general, which is absolutely a double-side sword to foreign candidates. It is no doubt that it is a good news to have more handsome salaries, as long as have a job first!
