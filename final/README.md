@@ -19,50 +19,55 @@
 > * **lon**: longitude of the Worksite.
 > * **lat**: latitude of the Worksite.
 
-## Analysis 1： Find the top 10 states with the most HI-B visa opportunities by year
+## Analysis 1： Demonstrate the distribution of H1-B opportunities all over US by latitude and longitude.
 ### Data cleaning
 1. Delete old index column.
 2. Remove rows with nan values.
-3. Split **WORKSITE** into **CITY** and **STATE**.
+3. Create a matrix with **lan** and **lon**.
+   The map is shown below:
+    !['data2011'](/final/analysis/ana_[1-5]/ana_1.png)
+   
+   
+## Analysis 2： Find the top 10 states with the most HI-B visa opportunities by year
 
-### Group data 
-1. Group by **YEAR** and **STATE**.
-2. Select the top ten states within each **STATE** group.
-3. Please refer to file _ana\_1.csv_ in folder **final/analysis/ana[1-5]/**.
-4. The bar charts of each year are as below:
+1. Split **WORKSITE** into **CITY** and **STATE**.
+2. Group by **YEAR** and **STATE**.
+3. Select the top ten states within each **STATE** group.
+4. Please refer to file _ana\_2.csv_ in folder **final/analysis/ana[1-5]/**.
+5. The bar charts of each year are as below:
 
- !['data2011'](/final/analysis/ana_[1-5]/ana_1_2011.png)
+ !['data2011'](/final/analysis/ana_[1-5]/ana_2_2011.png)
  
- !['data2012'](/final/analysis/ana_[1-5]/ana_1_2012.png)
+ !['data2012'](/final/analysis/ana_[1-5]/ana_2_2012.png)
  
- !['data2013'](/final/analysis/ana_[1-5]/ana_1_2013.png)
+ !['data2013'](/final/analysis/ana_[1-5]/ana_2_2013.png)
  
- !['data2014'](/final/analysis/ana_[1-5]/ana_1_2014.png)
+ !['data2014'](/final/analysis/ana_[1-5]/ana_2_2014.png)
  
- !['data2015'](/final/analysis/ana_[1-5]/ana_1_2015.png)
+ !['data2015'](/final/analysis/ana_[1-5]/ana_2_2015.png)
  
- !['data2016'](/final/analysis/ana_[1-5]/ana_1_2016.png)
+ !['data2016'](/final/analysis/ana_[1-5]/ana_2_2016.png)
  
 ### Conclusion
 From the result by year, top 5 states are selected, which are **CALIFORNIA, ILLINOIS, NEW JERSEY, NEW YORK and TEXAS**. Data from those 5 states are selected for the seconde analysis.
 
 
-## Analysis 2： Find the top 20% cities and top 20% occupations with the most HI-B visa opportunities in total.
+## Analysis 3： Find the top 20% cities and top 20% occupations with the most HI-B visa opportunities in total.
 1. Select data from top 5 states mentioned in last analysis.
 2. Analyze **CASE_STATUS**, as is shown below, **CERTIFIED** data is selected based on 2 reason. One reason is the **CERTIFIED** data makes the most sense for foreign candidates. The other reason is that according to the pie chart, more than 80% of the cases` result is **CERTIFIED**.
  
-  !['data_casgstatus'](/final/analysis/ana_[1-5]/ana_2.png)
+  !['data_casgstatus'](/final/analysis/ana_[1-5]/ana_3.png)
    
 3. Based on the same reason, filter the data with **FULL TIME** positions.
 4. according to Zipf's law that 20% always contributes 80%. Locate the dataframe into top 20% of cities and top 20% of the occupations(SOC_NAME).
-5. Please refer to file _ana\_2.csv_ in folder **final/analysis/ana[1-5]/**.
+5. Please refer to file _ana\_3.csv_ in folder **final/analysis/ana[1-5]/**.
 
 
-## Analysis 3： Find out the average of top five state by year
+## Analysis 4： Find out the average of top five state by year
 1. Convert **PREVILILNG_WAGE** to float format.
 2. Group data by **YEAR** and **STATE**. The following line chart demonstrates the trend from 2011 to 2016.
 
- !['data_wage'](/final/analysis/ana_[1-5]/ana_3.png)
+ !['data_wage'](/final/analysis/ana_[1-5]/ana_4.png)
  
 ### Conclusion
 For the 5 years, the **average wage** for H1-B visa is increasing in general, which is absolutely a double-side sword to foreign candidates. It is no doubt that it is a good news to have more handsome salaries, as long as have a job first!
