@@ -18,6 +18,9 @@
 > * **WORKSITE**: City and State information of the foreign worker's intended area of employment.
 > * **lon**: longitude of the Worksite.
 > * **lat**: latitude of the Worksite.
+## Instructions of running my code
+> * Packages: pandas, matplotlib.pyplot, mpl_toolkits.basemap, seaborn.
+> * Big files: the downloaded data size is 469 MB, I used git LFS to upload it. But just in case some unexpected situaiton, the original download address is https://www.kaggle.com/nsharan/h-1b-visa.
 
 ## Analysis 1： Demonstrate the distribution of H1-B opportunities all over US by latitude and longitude.
 ### Data cleaning
@@ -60,7 +63,7 @@ From the result by year, top 5 states are selected, which are **CALIFORNIA, ILLI
    
 3. Based on the same reason, filter the data with **FULL TIME** positions.
 4. according to Zipf's law that 20% always contributes 80%. Locate the dataframe into top 20% of cities and top 20% of the occupations(SOC_NAME).
-5. Please refer to file _ana\_3.csv_ in folder **final/analysis/ana[1-5]/**.
+5. Please refer to file _ana\_3.csv_ in folder **final/analysis/ana[1-5]/**. This is also a big file more than 100 MB, uploaded by git LFS.
 
 
 ## Analysis 4： Find out the average of top five state by year
