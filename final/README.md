@@ -18,6 +18,7 @@
 > * **WORKSITE**: City and State information of the foreign worker's intended area of employment.
 > * **lon**: longitude of the Worksite.
 > * **lat**: latitude of the Worksite.
+
 ## Instructions of running my code
 > * Packages: pandas, matplotlib.pyplot, mpl_toolkits.basemap, seaborn.
 > * Big files: the downloaded data size is 469 MB, I used git LFS to upload it. But just in case some unexpected situaiton, the original download address is https://www.kaggle.com/nsharan/h-1b-visa.
@@ -69,8 +70,26 @@ From the result by year, top 5 states are selected, which are **CALIFORNIA, ILLI
 ## Analysis 4： Find out the average of top five state by year
 1. Convert **PREVILILNG_WAGE** to float format.
 2. Group data by **YEAR** and **STATE**. The following line chart demonstrates the trend from 2011 to 2016.
+3. Please refer to file _ana\_4.csv_ in folder **final/analysis/ana[1-5]/**.
 
  !['data_wage'](/final/analysis/ana_[1-5]/ana_4.png)
  
 ### Conclusion
 For the 5 years, the **average wage** for H1-B visa is increasing in general, which is absolutely a double-side sword to foreign candidates. It is no doubt that it is a good news to have more handsome salaries, as long as have a job first!
+
+
+## Analysis 5: Analysis of top 10 employers ,top 20 job titles and the relation with average wages.
+1. Select top 10 employers. Please refer to file _ana\_5\_1.csv_ in folder **final/analysis/ana[1-5]/**.
+
+!['top_employer'](/final/analysis/ana_[1-5]/ana_5_1.png)
+ 
+2. Select top 20 job titles base on the top 10 employers.
+3. Calculate the average wage of the top 20 job titles.Please refer to file _ana\_5\_2.csv_ in folder **final/analysis/ana[1-5]/**.
+
+!['job_wage'](/final/analysis/ana_[1-5]/ana_5_2.png)
+
+### Conclusion
+As we can see here, the good new is that for all these years most of those companies and jobs are about IT tecnologies, but obviously there is a decrease in 2016. Since the new policies came out, the decrease trend may continue. Recently, the Infosys, the leading H1-B sponsorship company has announced that they will no longer apply H1-B visa for engineers less than 4-year working experince, which is so frustrated for every new graduate engineer. But stay positive, at least, we are at the right track!
+
+
+
